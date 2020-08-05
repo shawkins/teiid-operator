@@ -23,8 +23,7 @@ install:
 - make install
 
 script:
-- make update-connections
-- make build  
+- make ci 
 
 deploy:
   provider: script
